@@ -1,7 +1,9 @@
+scalar MyDate
+
 type User {
   id: Int!
   name: String!
-  birthdate: String!
+  birthdate: MyDate!
   username: String!
 }
 
